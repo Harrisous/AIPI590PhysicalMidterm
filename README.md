@@ -23,7 +23,7 @@ Given acceleration and gyroscope readings, the random forest model is trained to
 - Idea for the project.
 - Data collection. It is solved by looking into Kaggle data set (which is listed in the next section).
 - Quantize Random Forest Model. Torch does not support random forest training since it is built for deep learning tasks. But after consulting with Perplexity, I chose onnx to store and quantize the model.
-- Gyroscope readings. This is done with the hardware knowledge from Perplexity.
+- Gyroscope readings. This is done with the hardware knowledge from Perplexity. Also using sampling and calibration made the readings more stable and reliable.
 
 ## Data source
 https://www.kaggle.com/datasets/outofskills/driving-behavior?select=train_motion_data.csv
@@ -45,7 +45,7 @@ Then the model can be applied to RaspberryPi:
 
 ## A demonstration of how it works
 - Demo video link: 
-- Presentation deck:
+- Presentation deck: https://gamma.app/docs/DriveGuard-Enhancing-Road-Safety-with-AI-bifr11u9z5t2xvz
 
 ## Next steps
 1. Train deep learn models that can be easier handled by torch and make the prediction perform better. (Current AUROC ovr is only about 0.6)
