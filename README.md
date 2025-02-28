@@ -44,7 +44,7 @@ Then the model can be applied to RaspberryPi:
 2. run `python main.py` to activate the system.
 
 ## A demonstration of how it works
-- Demo video link: 
+- Demo video link: https://youtu.be/leXtcYvyn2w
 - Presentation deck: https://gamma.app/docs/DriveGuard-Enhancing-Road-Safety-with-AI-bifr11u9z5t2xvz
 
 ## Next steps
