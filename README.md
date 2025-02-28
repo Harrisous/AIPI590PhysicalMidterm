@@ -1,4 +1,5 @@
 # AIPI590PhysicalMidterm
+Haochen Li
 ## Background/introduction of the idea
 This project is a car device built for cultivating save driving behavior. It has 2 modes: driving mode and reverse mode. 
 
